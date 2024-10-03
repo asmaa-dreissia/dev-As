@@ -1,10 +1,10 @@
-# Assurez-vous que le module de réécriture est activé
+# Activation du module de réécriture
 RewriteEngine On
 
-# Redirection de students-laplateforme.io vers asmaa-dreissia.fr
-RewriteCond %{HTTP_HOST} ^asmaa-dreissia\.students-laplateforme\.io$ [NC]
-RewriteRule ^(.*)$ https://asmaa-dreissia.fr/$1 [L,R=301]
+# Redirection de toutes les requêtes vers l'URL cible
+RewriteCond %{HTTP_HOST} ^asmaa-dreissia\.fr$ [NC]
+RewriteRule ^(.*)$ https://asmaa-dreissia.students-laplateforme.io/$1 [P,L]
 
-# Optionnel : rediriger les requêtes HTTP vers HTTPS
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Assurer que le module proxy est activé
+ProxyPassMatch ^/(.*)$ https://asmaa-dreissia.students-laplateforme.io/$1
+ProxyPassReverse / https://asmaa-dreissia.students-laplateforme.io/
