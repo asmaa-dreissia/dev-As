@@ -30,11 +30,13 @@ document.addEventListener("scroll", function() {
 });
 
 // Form submission
-emailjs.sendForm('service_omdn9in', 'template_5yjrrdp', '#contact-form').then(
-  (response) => {
-    console.log('SUCCESS!', response.status, response.text);
-  },
-  (error) => {
-    console.log('FAILED...', error);
-  },
-);
+document.getElementById('contactSubmit').addEventListener('click', () => {
+  emailjs.sendForm('service_omdn9in', 'template_5yjrrdp', '#contact-form').then(
+    (response) => {
+      console.log('SUCCESS!', response.status, response.text);
+    },
+    (error) => {
+      console.log('FAILED...', error);
+    },
+  );
+});
