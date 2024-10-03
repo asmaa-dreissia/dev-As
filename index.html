@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dev ' As</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+        <link rel="shortcut icon" href="./assets/images/black-logo-circle.png" type="image/x-icon">
+
+    </head>
+
+    <body data-bs-spy="scoll" data-bs-target="#navbar-example">
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/images/LogoHoriz.png" width="150" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#hero">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">A Propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#avis">Avis</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Equipe</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <!--<a class="btn btn-brand ms-lg-3" href="#">Download</a>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!--HERO-->
+            <!-- Section Hero avec classe "parallax-text" ajoutée -->
+            <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 parallax-text">
+                            <h1 data-aos="fade-left" class="text-uppercase text-white fw-semibold display-1">Bienvenue Chez Dev'As !</h1>
+                            <h5 class="text-white mt-5 mb-4" data-aos="fade-right">Votre expert en web design à portée de clic !</h5>
+                            <div data-aos="fade-up" data-aos-delay="50">
+                                <a href="" class="btn btn-brand me-2">Découvrir</a>
+                                <a href="" class="btn btn-light ms-2">Voir le Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--about-->
+            <section id="about" class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                            <div class="section-title">
+                                <h1 class="display-4 fw-semibold">A Propos </h1>
+                                <div class="line"></div>
+                                <p >Chez Dev'as, nous sommes des développeurs web spécialisés dans le front-end et le design. Passionnés et créatifs, nous créons des solutions digitales qui allient esthétique et performance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
+                            <img src="./assets/images/NotreHistoire.jpg" alt="">
+                        </div>
+                        <div data-aos="fade-down" data-aos-delay="150" class="col-lg-5">
+                            <h1>Notre histoire</h1>
+                            <p class="mt-3 mb-4">Depuis nos débuts, notre ambition est de faire la différence par la qualité et l'originalité. Dev'as est née de la passion pour le développement web et du désir de transformer des idées en expériences visuelles marquantes.</p>
+                            <div class="d-flex pt-4 mb-3 ">
+                                <div class="iconbox me-4">
+                                    <i class="ri-mail-send-fill"></i>
+                                </div>
+                                <div>
+                                    <h5> Réactivité et Disponibilité </h5>
+                                    <p>Nous nous engageons à répondre rapidement à vos demandes pour vous assurer une communication fluide et efficace. </p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <div class="iconbox me-4">
+                                    <i class="ri-user-5-fill"></i>
+                                </div>
+                                <div>
+                                    <h5> Une Agence Innovante</h5>
+                                    <p>Notre équipe combine expertise technique et sens esthétique pour créer des expériences digitales mémorables.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <div class="iconbox me-4">
+                                    <i class="ri-rocket-2-fill"></i>
+                                </div>
+                                <div>
+                                    <h5> Expertise Polyvalente</h5>
+                                    <p>Nous nous adaptons à vos besoins, quel que soit le projet. Que ce soit pour le développement de sites web, le design graphique ou la création d'identités visuelles, notre polyvalence nous permet de relever tous les défis.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--services-->
+            <section id="services" class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150" >
+                            <div class="section-title">
+                                <h1 class="display-4 fw-semibold"> Services </h1>
+                                <div class="line miaou"></div>
+                                <p>Notre mission est de transformer des idées en sites attrayants et fonctionnels.
+
+                                    Avec nos compétences en HTML, CSS et JavaScript, on crée des expériences utilisateur esthétiques. On propose aussi des logos et des cartes de visite qui reflètent l’identité de nos clients.
+                                    
+                                    Notre objectif : rendre le web plus beau et accessible. Réalisons ensemble votre projet !</p>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4 text-center">
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150" >
+                            <div class="service theme-shadow p-lg-5 p-4">
+                                <div class="iconbox">
+                                    <i class="ri-mail-send-fill"></i>
+                                </div>
+                                <h5 class="mt-4 mb-3"> Création de site web</h5>
+                                <p> On conçoit des sites internet sur mesure, adaptés à vos besoins, avec un design responsive pour garantir une expérience utilisateur optimale sur tous les supports. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250" >
+                            <div class="service theme-shadow p-lg-5 p-4">
+                                <div class="iconbox">
+                                    <i class="ri-stack-fill"></i>
+                                </div>
+                                <h5 class="mt-4 mb-3"> Design de logos + identité visuelle</h5>
+                                <p> On vous aide à définir une identité visuelle forte grâce à la création de logos et de chartes graphiques qui reflètent parfaitement l'image de votre marque. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350" >
+                            <div class="service theme-shadow p-lg-5 p-4">
+                                <div class="iconbox">
+                                    <i class="ri-stack-fill"></i>
+                                </div>
+                                <h5 class="mt-4 mb-3"> Création de carte visite</h5>
+                                <p>On crée des cartes de visite personnalisées, élégantes et professionnelles, qui véhiculent l'essence de votre identité et laissent une impression durable auprès de vos clients et partenaires.</p>                    </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--Counter-->
+            <section id="counter" class="section-padding"> 
+                <div class="container text-center">
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150" >
+                            <h1 class="text-white display-4">  3 </h1>
+                            <h6 class="text-uppercase mb-0 mt-3"> Années Formation</h6>
+                        </div>
+                        <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="250" >
+                            <h1 class="text-white display-4"> + 20 </h1>
+                            <h6 class="text-uppercase mb-0 mt-3"> Projets réalisés</h6>
+                        </div>
+                        <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="350" >
+                            <h1 class="text-white display-4"> + 50 </h1>
+                            <h6 class="text-uppercase  mb-0 mt-3">  Clients Satisfaits</h6>
+                        </div>
+                        <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="450" >
+                            <h1 class="text-white display-4"> 15</h1>
+                            <h6 class="text-uppercase mb-0 mt-3"> Membres de l'Équipe</h6>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio-->
+            <section id="portfolio" class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center"data-aos="fade-down" data-aos-delay="150" >
+                            <div class="section-title">
+                                <h1 class="display-4 fw-semibold"> Portfolio </h1>
+                                <div class="line"></div>
+                                <p>Explorez notre portfolio pour voir quelques-unes de nos réalisations. Nous mettons notre expertise à votre service pour créer des projets uniques, répondant à vos besoins spécifiques.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-4" data-aos="fade-down" data-aos-delay="150" >
+                            <div class="portfolio-item image-zoom">
+                                <div class="image-zoom-warpper">
+                                    <img src="./assets/images/hp.png" alt="">
+                                </div>
+                                <a href="./assets/images/hp.png" data-fancybox="gallery" class="iconbox"></a>
+                            </div>
+                            <div class="portfolio-item image-zoom mt-4">
+                                <div class="image-zoom-warpper">
+                                    <img src="./assets/images/cine2.png" alt="">
+                                </div>
+                                <a href="./assets/images/cine2.png" data-fancybox="gallery" class="iconbox"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-down" data-aos-delay="250" >
+                            <div class="portfolio-item image-zoom">
+                                <div class="image-zoom-warpper">
+                                    <img src="./assets/images/THE.png" alt="">
+                                </div>
+                                <a href="./assets/images/THE.png" data-fancybox="gallery" class="iconbox"></i></a>
+                            </div>
+                            <div class="portfolio-item image-zoom mt-4">
+                                <div class="image-zoom-warpper">
+                                    <img src="./assets/images/cine.png" alt="">
+                                </div>
+                                <a href="./assets/images/cine.png" data-fancybox="gallery" class="iconbox"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-down" data-aos-delay="350" >
+                            <div class="portfolio-item image-zoom">
+                                <div class="image-zoom-warpper">
+                                    <img src="./assets/images/marron.jpg" alt="">
+                                </div>
+                                <a href="./assets/images/marron.jpg" data-fancybox="gallery" class="iconbox"></a>
+                            </div>
+                            <div class="portfolio-item image-zoom mt-4">
+                                <div class="image-zoom-warpper">
+                                    <img src="./assets/images/Capture d'écran 2024-06-28 144119.png" alt="">
+                                </div>
+                                <a href="./assets/images/Capture d'écran 2024-06-28 144119.png" data-fancybox="gallery" class="iconbox"></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Avis-->
+            <section id="avis" class="section-paddin bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150" >
+                            <div class="section-title">
+                                <h1 class="display-4 fw-semibold"> Commentaire </h1>
+                                <div class="line"></div>
+                                <p>Nous sommes fiers des relations que nous établissons avec nos clients et de la satisfaction qu'ils retirent de nos services. Voici quelques témoignages qui reflètent leur expérience avec Dev'as :</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gy-5 gx-4">
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150" >
+                            <div class="avis">
+                                <div class="avis-head p-4 bg-white theme-shadow">
+                                    <div class="text-warning">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <p> "Un service exceptionnel, alliant expertise technique et créativité. Dev'as a su transformer nos idées en un site magnifique et fonctionnel. Je recommande vivement !"</p>
+                                </div>
+                                <div class="avis-person mt-4 d-flex align-items-center">
+                                    <img class="rounded-circle" src="./assets/images/avatar-modified.png" alt="">
+                                    <div class="ms-5">
+                                        <h5> Alexandre Martin </h5>
+                                        <small> CEO de StartUpX</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250" > 
+                            <div class="avis">
+                                <div class="avis-head p-4 bg-white theme-shadow">
+                                    <div class="text-warning">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <p> "Une équipe passionnée et réactive. Dev'as a su capter l'essence de notre marque pour créer une identité visuelle percutante. Très satisfait du résultat !"</p>
+                                </div>
+                                <div class="avis-person mt-4 d-flex align-items-center">
+                                    <img class="rounded-circle" src="./assets/images/avatar-modified.png" alt="">
+                                    <div class="ms-5">
+                                        <h5> Sophie Durant</h5>
+                                        <small> Fondatrice de Artis Créations</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350" >
+                            <div class="avis">
+                                <div class="avis-head p-4 bg-white theme-shadow">
+                                    <div class="text-warning">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <p> "Professionnalisme, écoute et innovation. Travailler avec Dev'as a été une excellente expérience. Le site web est magnifique et parfaitement optimisé !"</p>
+                                </div>
+                                <div class="avis-person mt-4 d-flex align-items-center">
+                                    <img class="rounded-circle" src="./assets/images/avatar-modified.png" alt="">
+                                    <div class="ms-5">
+                                        <h5> Karim Lahlou</h5>
+                                        <small> Directeur Marketing chez Innovatech</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Team-->
+            <section id="team" class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150" >
+                            <div class="section-title">
+                                <h1 class="display-4 fw-semibold">L'Equipe</h1>
+                                <div class="line"></div>
+                                <p> Une équipe réunie au complet, prête à transformer vos idées en réalité, avec créativité et expertise.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4 text-center">
+                        <div class="col-md-4" data-aos="fade-down" data-aos-delay="150" >
+                            <div class="team-member image-zoom">
+                                <div class="image-zoom-wrapper">
+                                    <img src="./assets/images/salarie1.jpg" alt="">
+                                </div>
+                                <div class="team-member-content">
+                                    <h4 class="text-white"> Théo Garcia</h4>
+                                    <p class="mb-0 text-white"> Développeur web</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-down" data-aos-delay="250" >
+                            <div class="team-member image-zoom">
+                                <div class="image-zoom-wrapper">
+                                    <img src="./assets/images/salarie2.jpg" alt="">
+                                </div>
+                                <div class="team-member-content">
+                                    <h4 class="text-white"> Stéphanie Dupont</h4>
+                                    <p class="mb-0 text-white"> Web Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-down" data-aos-delay="350" >
+                            <div class="team-member image-zoom">
+                                <div class="image-zoom-wrapper">
+                                    <img src="./assets/images/salarie3.jpg" alt="">
+                                </div>
+                                <div class="team-member-content">
+                                    <h4 class="text-white"> Selim Grim</h4>
+                                    <p class="mb-0 text-white"> Web Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Contact-->
+            <section class="section-padding" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150" >
+                            <div class="section-title">
+                                <h1 class="display-4 text-white fw-semibold"> Contactez nous !</h1>
+                                <div class="line bg-white"></div>
+                                <p class="text-white"> Une question ? Une demande de renseignement ? Un projet en tête ? N'hésitez pas à nous contacter. Remplissez le formulaire ci-dessous, et notre équipe se fera un plaisir de vous répondre dans les plus brefs délais.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="150" >
+                        <div class="col-lg-8">
+                            <form action="#" class="row g-3 p-lg-5 p-4 bg-white theme-shadow">
+                                <div class="form-group col-lg-6">
+                                    <input type="text" class="form-control" placeholder="Entrez votre nom">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <input type="text" class="form-control" placeholder="Entrez votre prénom">
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <input type="email" class="form-control" placeholder="Entrez votre Adresse Mail">
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <textarea name="message" rows="5" class="form-control" placeholder="Entrez votre message"></textarea>
+                                </div>
+                                <div class="form-group col-lg-12 d-grid">
+                                    <button class="btn btn-brand"> Envoye</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer class="bg-dark">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row gy-5">
+                        <div class="col-lg-3 col-sm-6">
+                            <h5 class="mb-0 text-white"> DEV'AS </h5>
+                            <div class="line"></div>
+                            <p>Chez Dev'as, nous sommes des développeurs web spécialisés dans le front-end et le design. Passionnés et créatifs, nous créons des solutions digitales qui allient esthétique et performance.</p>
+                            <div class="social-icons">
+                                <a href="#"> <i class="ri-twitter-fill"></i></a>
+                                <a href="#"> <i class="ri-instagram-fill"></i></a>
+                                <a href="#"> <i class="ri-github-fill"></i></a>
+                                <a href="#"> <i class="ri-linkedin-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <h5 class="mb-0 text-white"> SERVICES </h5>
+                            <div class="line"></div>
+                            <ul>
+                                <li> <a href=""> Création de Sites Web </a></li>
+                                <li> <a href=""> Design de Logos  </a></li>
+                                <li> <a href=""> Identité Visuelle </a></li>
+                                <li> <a href=""> Développement Front-End </a></li>
+                                <li> <a href=""> Services de Maintenance Web </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <h5 class="mb-0 text-white"> ABOUT </h5>
+                            <div class="line"></div>
+                            <ul>
+                                <li> <a href=""> Blog </a></li>
+                                <li> <a href=""> Services </a></li>
+                                <li> <a href=""> Company </a></li>
+                                <li> <a href=""> Carrière </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <h5 class="mb-0 text-white"> Contact </h5>
+                            <div class="line"></div>
+                            <ul>
+                                <li> Miramas 1340</li>
+                                <li> 07.86.75.18.12</li>
+                                <li> adreissia@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row g-4 justify-content-between">
+                        <div class="col-auto">
+                            <p class="mb-0"> Copyright Dev'As. All Rights Reserved</p>
+                        </div>
+                        <div class="col-auto">
+                            <p class="mb-0"> Réalisée par <a href="">Asmaa</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"> </script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.umd.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
