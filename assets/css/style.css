@@ -93,13 +93,6 @@ img{
     width: 50%;
 }
 
-/*HERO*/
-/* #hero{
-    background: linear-gradient(rgba(0,0,0,0.507), rgba (0,0,0,0.438));
-    background-position: center ;
-    background-size: cover;
-    background-image: url(../images/montagne.jpg) ;
-} */
 
 
 #hero {
@@ -113,6 +106,7 @@ img{
     position: relative;
     overflow: hidden; /* Assure que rien ne dépasse de la section */
     transition: background-size 0.5s ease-in-out; /* Ajoute une transition pour lisser l'effet */
+    background-position: center ;
 }
 
 
