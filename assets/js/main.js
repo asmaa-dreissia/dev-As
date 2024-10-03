@@ -28,3 +28,13 @@ document.addEventListener("scroll", function() {
   let parallaxOffset = offset * 0.5; // Ajuster le facteur pour contrôler la vitesse du mouvement du texte
   parallaxText.style.transform = `translateY(${parallaxOffset}px)`;
 });
+
+// Form submission
+emailjs.sendForm('service_omdn9in', 'template_5yjrrdp', '#contact-form').then(
+  (response) => {
+    console.log('SUCCESS!', response.status, response.text);
+  },
+  (error) => {
+    console.log('FAILED...', error);
+  },
+);
